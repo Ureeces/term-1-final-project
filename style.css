@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Perry Gothic';
+    src: url('./assets/fonts/PERRYGOT.TTF');
+}
+
+h1 {
+    font-family: 'Perry Gothic';
+}
+
+ul {
+    list-style: none;
+}
+
+#ability_inputs {
+    display: flex;
+    flex-direction: column;
+}
