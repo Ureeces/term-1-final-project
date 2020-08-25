@@ -9,7 +9,6 @@
     </head>
     <body>
         <div id="app">
-
             <div id="page_title">
                 <h1>Pathfinder Character Creator</h1>
             </div>
@@ -42,7 +41,6 @@
                 <button id="roll">Roll for my stats!</button>
 
                 <div id="ability_inputs">
-
                     <div id="str">
                         <label for="str_in">Strength</label>
                         <input type="text" id="str_in" class="abilityScore">
@@ -79,12 +77,30 @@
                 <h1>Race</h1>
 
                 <div id="race_images">
-                    <img alt="Human" class="race">
-                    <img src="./assets/images/Elf.png" alt="Elf" class="race">
-                    <img src="./assets/images/Dwarf.png" alt="Dwarf" class="race">
-                    <img alt="Gnome" class="race">
-                    <img alt="Half-Orc" class="race">
-                    <img src="./assets/images/Half-elf.png" alt="Half-Elf" class="race">
+                    <div class="race_box" id="human">
+                        <img src="./assets/images/human.png" alt="Human" class="race">
+                        <p>Human</p>
+                    </div>
+
+                    <div class="race_box" id="elf">
+                        <img src="./assets/images/Elf.png" alt="Elf" class="race">
+                        <p>Elf</p>
+                    </div>
+
+                    <div class="race_box" id="dwarf">
+                        <img src="./assets/images/Dwarf.png" alt="Dwarf" class="race">
+                        <p>Dwarf</p>
+                    </div>
+                    
+                    <div class="race_box">
+                        <img src="./assets/images/Half-orc.png" Half-Orc" class="race">
+                        <p>Half-Orc</p>
+                    </div>
+
+                    <div class="race_box">
+                        <img src="./assets/images/Half-elf.png" alt="Half-Elf" class="race">
+                        <p>Half-Elf</p>
+                    </div>
                 </div>
             </div>
             

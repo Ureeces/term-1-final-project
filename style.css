@@ -50,6 +50,13 @@ button:hover {
     border: 1px solid black;
 }
 
+.race_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Perry Gothic';
+}
+
 .race {
     height: 50%;
 }
@@ -65,5 +72,9 @@ button:hover {
 #ability_inputs {
     display: flex;
     flex-direction: column;
+}
+
+#race_images {
+    display: flex;
 }
 
