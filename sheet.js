@@ -51,3 +51,6 @@ const createSheet = function() {
         sheet.appendChild(charClass);
     }
 }
+
+// Latch these functions onto our button
+

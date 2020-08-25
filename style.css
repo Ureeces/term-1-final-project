@@ -50,6 +50,12 @@ button:hover {
     align-items: center;
 }
 
+.single_input {
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    padding-top: 0.25%;
+}
+
 .race_box {
     display: flex;
     flex-direction: column;
@@ -66,14 +72,26 @@ button:hover {
 #page_title {
     display: flex;
     justify-content: center;
-    font-size: 1.5em;
     height: 15vh;
+}
+
+#basic_info div {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+#name, #class {
+    width: 30%;
+}
+
+#char_desc {
+    width: 30%;
+    height: 30%;
 }
 
 #ability_inputs {
     display: flex;
     flex-direction: column;
-    height: 40vh;
 }
 
 #race_images {
@@ -86,3 +104,8 @@ button:hover {
     margin-bottom: 10px;
 }
 
+/* Unique Inputs */
+#desc_in {
+    width: 80%;
+    height: 100%;
+}

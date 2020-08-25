@@ -18,59 +18,59 @@
             <!-- Basic Info Section (Top) -->
             <div id="basic_info" class="inputSection">
 
-                <div id="name">
+                <div id="name" class="single_input">
                     <label for="name_in">Name</label>
                     <input type="text" id="name_in">
                 </div>
 
-                <div id="class">
+                <div id="class" class="single_input">
                     <label for="class_in">Class</label>
                     <input type="text" id="class_in">
                 </div>
 
-                <div id="char_desc">
+                <div id="char_desc" class="single_input">
                     <label for="desc_in">Character Description</label>
-                    <input type="text" id="desc_in">
+                    <textarea id="desc_in"></textarea>
                 </div>
             </div>
             
             <!-- Ability Score Section (Middle) -->
             <div id="ability_scores" class="inputSection">
                 <h1>Ability Scores</h1>
-                <div id="hp">
+                <div id="hp" class="single_input">
                     <label for="hp_in">HP</label>
                     <input type="number" id="hp_in">
                 </div>
                 
                 <button id="roll">Roll for my stats!</button>
 
-                <div id="ability_inputs">
-                    <div id="str">
+                <div id="ability_inputs" class="single_input">
+                    <div id="str" class="single_input">
                         <label for="str_in">Strength</label>
                         <input type="number" id="str_in" class="abilityScore">
                     </div>
 
-                    <div id="dex">
+                    <div id="dex" class="single_input">
                         <label for="str_in">Dexterity</label>
                         <input type="number" id="dex_in" class="abilityScore">
                     </div>
                     
-                    <div id="con">
+                    <div id="con" class="single_input">
                         <label for="con_in">Constitution</label>
                         <input type="number" id="con_in" class="abilityScore">
                     </div>
 
-                    <div id="int">
+                    <div id="int" class="single_input">
                         <label for="int_in">Intelligence</label>
                         <input type="number" id="int_in" class="abilityScore">
                     </div>
 
-                    <div id="wis">
+                    <div id="wis" class="single_input">
                         <label for="wis_in">Wisdom</label>
                         <input type="number" id="wis_in" class="abilityScore">
                     </div>
 
-                    <div id="cha">
+                    <div id="cha" class="single_input">
                         <label for="cha_in">Charisma</label>
                         <input type="number" id="cha_in" class="abilityScore">
                     </div>
@@ -118,9 +118,6 @@
                     <!-- Character Sheet here -->
                 </div>
             </div>
-        
-        
-        
         
         </div>
         <script src="./character-backend.js"></script>

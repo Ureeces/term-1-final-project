@@ -18,7 +18,7 @@ raceBoxes.forEach(box => {
             selectedRace.classList.remove('selected_race');
         }
     
-        box.style.border = "1px solid red";
+        box.style.border = "3px solid blue";
         box.classList.add('selected_race');
         selectedRace = box;
     })
