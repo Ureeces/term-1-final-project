@@ -40,6 +40,45 @@ const createSheet = function() {
         // Class
         const charClass = document.querySelector("char_class");
         charClass.innerText = document.querySelector('class_in').value;
+
+        // Description
+        const charDesc = document.querySelector("char_desc");
+        charDesc.innerText = document.querySelector('desc_in').value;
+
+        // HP
+        const charHP = document.querySelector("char_hp");
+        charHP.innerText = document.querySelector('hp_in').value;
+
+        // Str
+        const charStr = document.querySelector("char_str");
+        charStr.innerText = document.querySelector('str_in').value;
+
+        // Dex
+        const charDex = document.querySelector("char_dex");
+        charDex.innerText = document.querySelector('dex_in').value;
+
+        // Con
+        const charCon = document.querySelector("char_con");
+        charCon.innerText = document.querySelector('con_in').value;
+
+        // Int
+        const charInt = document.querySelector("char_int");
+        charInt.innerText = document.querySelector('int_in').value;
+
+        // Wis
+        const charWis = document.querySelector("char_wis");
+        charWis.innerText = document.querySelector('wis_in').value;
+
+        // Cha
+        const charCha = document.querySelector("char_cha");
+        charCha.innerText = document.querySelector('cha_in').value;
+
+        // Image
+        const charRace = document.querySelector("char_race");
+        const charRaceDesc = document.querySelector("char_race_desc");
+
+        charRace.src= document.querySelector('.selected_class').src;
+        charRaceDesc.innerText = document.querySelector('.selected_class').alt;
     }
 }
 
