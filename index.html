@@ -9,8 +9,9 @@
     </head>
     <body>
         <div id="app">
-            <div id="basic_info">
-                <h1>Pathfinder Character Creator</h1>
+            <h1 id="page-title">Pathfinder Character Creator</h1>
+
+            <div id="basic_info" class="inputSection">
 
                 <div id="name">
                     <label for="name_in">Name</label>
@@ -28,8 +29,7 @@
                 </div>
             </div>
             
-            <hr>
-            <div id="ability_scores">
+            <div id="ability_scores" class="inputSection">
                 <h1>Ability Scores</h1>
                 <div id="hp">
                     <label for="hp_in">HP</label>
@@ -42,51 +42,52 @@
 
                     <div id="str">
                         <label for="str_in">Strength</label>
-                        <input type="text" id="str_in" class="score">
+                        <input type="text" id="str_in" class="abilityScore">
                     </div>
 
                     <div id="dex">
                         <label for="str_in">Dexterity</label>
-                        <input type="text" id="dex_in" class="score">
+                        <input type="text" id="dex_in" class="abilityScore">
                     </div>
                     
                     <div id="con">
                         <label for="con_in">Constitution</label>
-                        <input type="text" id="con_in" class="score">
+                        <input type="text" id="con_in" class="abilityScore">
                     </div>
 
                     <div id="int">
                         <label for="int_in">Intelligence</label>
-                        <input type="text" id="int_in" class="score">
+                        <input type="text" id="int_in" class="abilityScore">
                     </div>
 
                     <div id="wis">
                         <label for="wis_in">Wisdom</label>
-                        <input type="text" id="wis_in" class="score">
+                        <input type="text" id="wis_in" class="abilityScore">
                     </div>
 
                     <div id="cha">
                         <label for="cha_in">Charisma</label>
-                        <input type="text" id="cha_in" class="score">
+                        <input type="text" id="cha_in" class="abilityScore">
                     </div>
                 </div>
             </div>
             
-            <hr>
-            <div id="race_selector">
+            <div id="race_selector" class="inputSection">
                 <h1>Race</h1>
 
                 <div id="race_images">
                     <img alt="Human" class="race">
-                    <img alt="Elf" class="race">
-                    <img alt="Dwarf" class="race">
+                    <img src="./assets/images/Elf.png" alt="Elf" class="race">
+                    <img src="./assets/images/Dwarf.png" alt="Dwarf" class="race">
                     <img alt="Gnome" class="race">
                     <img alt="Half-Orc" class="race">
-                    <img alt="Half-Elf" class="race">
+                    <img src="./assets/images/Half-elf.png" alt="Half-Elf" class="race">
                 </div>
             </div>
-        
-            <button id="create">Create my character!</button>
+            
+            <div class="inputSection">
+                <button id="create">Create my character!</button>
+            </div>
         
             <div class="sheet">
                 <div class="overlay"></div>
@@ -102,5 +103,6 @@
         <script src="./character-backend.js"></script>
         <script src="./roll.js"></script>
         <script src="./sheet.js"></script>
+        <script src="./raceSelect.js"></script>
     </body>
 </html>

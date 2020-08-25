@@ -7,15 +7,58 @@
     src: url('./assets/fonts/PERRYGOT.TTF');
 }
 
+@font-face {
+    font-family: 'Carta Magna';
+    src: url('./assets/fonts/Carta_Magna-line-demo-FFP.ttf');
+}
+
+#app {
+    background-image: url("./assets/images/scroll_image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     font-family: 'Perry Gothic';
+}
+
+#page-title {
+    font-size: 45pt;
+    text-align: center;
 }
 
 ul {
     list-style: none;
 }
 
+button {
+    font-family: 'Carta Magna';
+    font-size: 12pt;
+    background-color:#CA9B49;
+    border: none;
+    width: 10%;
+}
+
+button:hover {
+    color: gray;
+}
+
 #ability_inputs {
     display: flex;
     flex-direction: column;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.race {
+    height: 50%;
 }
