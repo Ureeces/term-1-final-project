@@ -94,6 +94,10 @@ button:hover {
     flex-direction: column;
 }
 
+#race_selector {
+    height: 15%;
+}
+
 #race_images {
     display: flex;
     justify-content: center;

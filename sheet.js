@@ -33,22 +33,13 @@ const createSheet = function() {
     }
 
     else {
-        // Title of the Page
-        const title = document.createElement('h1');
-        title.id = 'sheet_title';
-        title.innerText = 'Character Sheet';
-
         // Name 
-        const charName = document.createElement('p');
-        charName.className = 'sheet_name';
-        charName.innerText = document.querySelector('name_in');
-        sheet.appendChild(charName);
+        const charName = document.querySelector("char_name");
+        charName.innerText = document.querySelector('name_in').value;
 
         // Class
-        const charClass = document.createElement('p');
-        charClass.className = 'sheet_char_class';
-        charClass.innerText = document.querySelector('class_in');
-        sheet.appendChild(charClass);
+        const charClass = document.querySelector("char_class");
+        charClass.innerText = document.querySelector('class_in').value;
     }
 }
 
