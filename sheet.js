@@ -26,8 +26,6 @@ const checkForEmpties = function() {
 }
 
 const createSheet = function() {
-    const sheet = document.querySelector('#sheet_content');
-    
     if(checkForEmpties()) {
         alert("HALT! You have missed an inquiry on your form.");
     }
@@ -81,6 +79,4 @@ const createSheet = function() {
         charRaceDesc.innerText = document.querySelector('.selected_class').alt;
     }
 }
-
-// Latch these functions onto our button
 

@@ -5,7 +5,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    z-index: 3;
+    z-index: 995;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -16,9 +16,12 @@
     height: 100%;
     top: 0;
     left: 0;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2;
+    z-index: 990;
+}
+
+#sheet_content {
+    z-index: 999;
+    position: absolute;
 }
 
 /* CSS for the sheet itself */
