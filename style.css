@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+/* Fonts */
 @font-face {
     font-family: 'Perry Gothic';
     src: url('./assets/fonts/PERRYGOT.TTF');
@@ -11,28 +12,22 @@
     font-family: 'Carta Magna';
     src: url('./assets/fonts/Carta_Magna-line-demo-FFP.ttf');
 }
+/* This style sheet is organized in categories. Each id, class, etc. are placed in order
+from top to bottom. */
 
+/* App - format for entire thing */
 #app {
     background-image: url("./assets/images/scroll_image.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
+/* Global element styles */
 h1 {
     font-family: 'Perry Gothic';
-}
-
-#page-title {
-    font-size: 45pt;
-    text-align: center;
-}
-
-ul {
-    list-style: none;
 }
 
 button {
@@ -47,11 +42,7 @@ button:hover {
     color: gray;
 }
 
-#ability_inputs {
-    display: flex;
-    flex-direction: column;
-}
-
+/* Div class styles */
 .inputSection {
     display: flex;
     flex-direction: column;
@@ -62,3 +53,17 @@ button:hover {
 .race {
     height: 50%;
 }
+
+/* Div id styles */
+#page_title {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    height: 15vh;
+}
+
+#ability_inputs {
+    display: flex;
+    flex-direction: column;
+}
+
