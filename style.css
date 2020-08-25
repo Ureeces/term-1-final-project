@@ -23,6 +23,7 @@ from top to bottom. */
     height: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 /* Global element styles */
